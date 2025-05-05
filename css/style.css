@@ -472,30 +472,35 @@ footer .credit a {
     font-size: 4rem;
   }
 
-  .about .row {
+  .info .row {
     flex-wrap: wrap;
   }
 
-  .about .row .about-image img {
+  .info .row .info-image img {
     height: 24rem;
     object-fit: cover;
   }
 
-  .about .row .content {
+  .info .row .content {
     padding: 0;
   }
 
-  .about .row .content h3 {
+  .info .row .content h3 {
     margin-top: 1rem;
     font-size: 2rem;
   }
 
-  .about .row .content p {
+  .info .row .content p {
     font-size: 1.6rem;
   }
 
   .products .row {
     grid-template-columns: 1fr;
+  }
+
+  .products .product-card .product-image {
+    width: 100%;
+    object-fit:cover ;
   }
 
   .menu p {
